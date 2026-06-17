@@ -389,7 +389,7 @@ img { max-width: 100%; height: auto; display: block; }
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 960px) {
   .hero-inner      { grid-template-columns: 1fr; }
-  .hero-img-wrap   { display: none; }
+  /*.hero-img-wrap   { display: none; }*/
   .hero            { min-height: auto; padding: 8rem 0 5rem; }
   .hero-breathe    { display: none; }
   .why-grid        { grid-template-columns: 1fr; }
