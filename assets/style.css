@@ -159,7 +159,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .mobile-nav.open { display: block; }
 .mobile-nav a { display:block; padding:.75rem 0; font-size:1rem; font-weight:500; color:var(--slate-mid); border-bottom:1px solid var(--border); text-decoration:none; }
-.mobile-nav .btn { margin-top:1rem; width:100%; justify-content:center; }
+.mobile-nav .btn { margin-top:1rem; width:100%; justify-content:center; text-align: center; color: #FFFFFF;}
 
 /* ===================== HERO ===================== */
 .hero {
@@ -372,7 +372,7 @@ img { max-width: 100%; height: auto; display: block; }
 .check-list li::before { content:'✓'; color:var(--sage); font-weight:700; flex-shrink:0; }
 
 /* ===================== PILL TAGS ===================== */
-.pill-wrap { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:1.5rem; }
+.pill-wrap { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:1.5rem; margin-bottom: 1.5rem}
 .pill { padding:.5rem 1.1rem; background:var(--white); border:1.5px solid var(--sage-light); border-radius:50px; font-size:.84rem; font-weight:500; color:var(--slate); transition:all .2s; }
 .pill:hover { background:var(--sage); color:var(--white); border-color:var(--sage); cursor:pointer; }
 
@@ -411,4 +411,12 @@ img { max-width: 100%; height: auto; display: block; }
 @media (prefers-reduced-motion: reduce) {
   .hero-breathe circle { animation: none; }
   * { transition: none !important; }
+}
+@media (min-width: 1024px){
+  .two-col{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:4rem;
+    align-items:center"
+  }
 }
