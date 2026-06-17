@@ -420,3 +420,6 @@ img { max-width: 100%; height: auto; display: block; }
     align-items:center"
   }
 }
+@media (max-width: 768px){
+  .hero-inner > :first-child { order: 1 }
+}
